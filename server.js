@@ -8,6 +8,7 @@ app.get('/', (req,res) => {
     res.sendFile('index');
 })
 
+// Starta webbservern
 app.listen(4242, () => {
     console.log('server is running on port 4242');
 });
